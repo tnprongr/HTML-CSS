@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+ width: 100%;
+ height: 400px;
+ background-image: url(img-c6/mv.jpg);
+ background-size: cover;
+ background-position: bottom;
+}
+
+.head{
+  padding:20px;
+  font-size: 32px;
+  color: gray;
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+
+}
+
+.blog-box {
+
+}
+
+.blog-item1 {
+  margin-top:50px;
+  padding-bottom:30px;
+  border-bottom:2px solid gray;
+}
+
+.blog-item2 {
+  padding-top:30px;
+  padding-bottom:30px;
+  border-bottom:2px solid gray;
+}
+
+.blog-item3 {
+  padding-top:30px;
+  padding-bottom:30px;
+  border-bottom:2px solid gray;
+}
+
+.blog-item4 {
+  padding-top:50px;
+  padding-bottom:50px;
+  border-bottom:2px solid gray;
+}
+
