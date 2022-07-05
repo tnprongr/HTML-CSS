@@ -74,3 +74,44 @@ p {
   height:50px;
   background-color:#AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+   display: block;
+   width: 100%;
+  }
+
+  .content1,
+  .content2,
+  .content3 {
+    width: 90%;
+  }
+
+ .content1 {
+    margin:50px auto 20px;
+  }
+
+ .img1,
+ .img2,
+ .img3,
+ p {
+   margin: 0 auto;
+ }
+
+ .content2 {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+ }
+
+ .content3 {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+ }
+
+}
